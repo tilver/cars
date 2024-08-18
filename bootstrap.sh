@@ -2,4 +2,5 @@
 
 python -m venv car-venv
 . car-venv/bin/activate
-pip install scapy
+pip install --upgrade pip
+pip install scapy python-can
